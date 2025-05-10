@@ -95,8 +95,8 @@ const Guestpage = () => {
     </div>
     <div className={styles.svnrow}>
       <p className={styles.lblv}>• (280) Special Ticket</p>
-      <p className={styles.lblg}>• (3) Demo Paid Ticket</p>
       <p className={styles.lblw}>• (4) Hackathon</p>
+      <p className={styles.lblg}>• (3) Demo Paid Ticket</p>
       <p className={styles.lblb}>• (50) New Ticket</p>
     </div>
     <div className={styles.egtrow}>
@@ -294,7 +294,7 @@ const Guestpage = () => {
         <div>
           <img src={hoomans} className={styles.hoomans}/>
         </div>
-        <div>
+        <div className={styles.group}>
           <img src={insta}  className={styles.social}/>
           <img src={linkedin} className={styles.social}/>
           <img src={x} className={styles.social}/>
