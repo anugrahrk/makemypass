@@ -39,7 +39,7 @@ body{
 .title{
     padding-left: 10px;
     color: #e9e9e9;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-size: 14.8px;
     font-weight: 300;
     margin-top: 13px;
@@ -50,7 +50,7 @@ body{
     justify-content: center;
 }
 .email{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     padding-top: 18px;
     padding-right: 10px;
     color:#999;
@@ -64,16 +64,15 @@ body{
 
 }
 .btntrnsp{
-    border-radius: 20;
-    background-color: #0003;
+    border-radius: 11px;
+    background-color: rgba(255, 255, 255, 0.04);
     margin-left: 245px;
-    margin-top: 22px;
+    margin-top: 23px;
     display: flex;
     justify-content: flex-start;
     margin-right: 10px;
-    border-radius: 10px;
-    height: 40px;
-    width:50px;
+    height: 32px;
+    width:40px;
     cursor: pointer;
 }
 .btntrnsp:hover{
@@ -81,13 +80,13 @@ body{
     cursor: pointer;
 }
 .btnarrow{
-    width: 25px;
-    height: 25px;
+    width: 16px;
+    height: 16px;
     color: #ffffff;
     display: flex;
     justify-content: center;
-    padding-left: 14px;
-    padding-top: 7px;
+    padding-left: 12px;
+    padding-top: 8px;
     cursor: pointer;
 }
 .secrow{
@@ -104,7 +103,7 @@ h2{
     margin: 10px;
     padding-top: 15px;
     unicode-bidi: isolate;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-weight: 600;
     font-size: 28px;
 }
@@ -123,7 +122,7 @@ h2{
 .text{
     padding-top: 20px;
     color: #ffffff81;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-size: 13px;
     cursor: pointer;
 
@@ -134,12 +133,14 @@ h2{
     display: flex;
     justify-content: flex-start;
     padding-left: 245px;
+    width: 832.44px;
+    height: 27px;
 
 }
 .thrdrowtxt{
     margin-left: 5px;
     margin-right: 5px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-size: 13px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.6);
@@ -171,41 +172,51 @@ h2{
     display: flex;
     justify-content: space-between;
     color: #ffffff;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     margin-left: 245px;
     margin-right: 240px;
     font-weight: 300;
+    height: 27px;
+    padding-bottom: 20px;
 }
 .glance{
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 400;
 }
 .date{
-    font-size: 15px;
+    font-size: 14.4px;
     padding-top: 12px;
+    font-weight: 400;
 }
 .fifrow{
     display: flex;
     justify-content: space-between;
-    margin-left: 237px;
+    margin-left: 242px;
     margin-right: 235px;
+    height: 28px;
+    padding-bottom: 20px;
 
 }
 .number1{
-    margin: 6px;
+    margin-right: 3px;
     color:#47c97e;
     font-size: 20px;
+    font-weight: 400;
+
 
 }
 .number2{
-    margin: 6px;
+    margin-right: 3px;
     font-size: 20px;
+
+
 
 }
 .label{
-    margin: 6px;
+    margin-right: 9px;
     color:#00ff82;
     font-size: 16px;
-    padding-top: 2px;
+    padding-top: 7px;
 
 }
 .fifrowl{
@@ -248,24 +259,33 @@ h2{
     justify-content: flex-start;
     margin-left: 237px;
     margin-right: 235px;
+    height: 17px;
 }
 .lblv{
     color: #9b4fd3;
-    margin:10px ;
+    margin:5px ;
+    font-size: 14.4px;
+    font-weight: 400;
 }
 .lblw{
     color: #2eaf6d;
-    margin:10px ;
+    margin:5px ;
+    font-size: 14.4px;
+    font-weight: 400;
 
 }
 .lblg{
     color: #e6e8ec;
-    margin:10px ;
+    margin:5px ;
+    font-size: 14.4px;
+    font-weight: 400;
 
 }
 .lblb{
     color: #7c9bf2;
-    margin:10px ;
+    margin:5px ;
+    font-size: 14.4px;
+    font-weight: 400;
 
 }
 .egtrow{
@@ -285,7 +305,8 @@ h2{
     display: flex;
     justify-content: center;
     gap: 12px;
-    width: 173px;
+    height: 45px;
+    width: 210px;
     background-color: #ffffff14;
     border-radius: 8px;
     color: #ffffff;
@@ -293,6 +314,7 @@ h2{
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.02);
 }
 .btn:hover{
     background-color: #0c0c0c14;
@@ -303,7 +325,7 @@ h2{
     margin-left: 237px;
     margin-top: 15px;
     margin-bottom: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-size:20px ;
     font-weight: 500;
     color: #ffffff;
@@ -314,11 +336,13 @@ h2{
     margin-left: 237px;
     margin-top: 15px;
     margin-bottom: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     background-color: #ffffff0d;
     margin-right: 235px;
     border-radius: 8px;
-    border:  solid rgba(255,255,255,.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    height: 36px;
+    width: 1048x;
 
 }
 .searchicon{
@@ -333,7 +357,7 @@ h2{
     margin-top: 1px;
     border: none;
     outline: none;
-    width:150px;
+    width:1006px;
 }
 .lvnrow{
     display: flex;
@@ -342,9 +366,13 @@ h2{
     margin-right: 235px;
     margin-bottom: 15px;
 }
+.lft{
+    width: 161.57px;
+    height: 21px;
+}
 .lft p{
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
+    font-family: 'Inter';
+    font-weight: 600;
     font-size: 17.6px;
 
 }
@@ -359,7 +387,7 @@ h2{
     border-radius: 4px;
     margin-right: 10px;
     height:40px;
-    width: 125px;
+    width: 125.14px;
     display: flex;
     justify-content: center;
 
@@ -390,7 +418,8 @@ h2{
     border-radius: 4px;
     margin-right: 10px;
     height:40px;
-    width: 160px;
+    width: 142px;
+    white-space: nowrap;
 
 
 }
@@ -423,8 +452,8 @@ h2{
     border-radius: 4px;
     margin-right: 10px;
     height:40px;
-    width: 176px;
-
+    width: 165px;
+    white-space: nowrap;
 
 }
 .ap1{
@@ -455,9 +484,10 @@ h2{
     background-color: #ffffff14;
     border-radius: 4px;
     height:40px;
-    width: 198px;
+    width: 186px;
     display: flex;
     justify-content: center;
+    white-space: nowrap;
 
 }
 .rp1{
@@ -512,13 +542,13 @@ h2{
 .email1{
     margin-top: 2px;
     padding-left: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     color:#999;
     font-size: 13px;
 }
 .name{
     padding-bottom: 5px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
 }
 .firstright{
     padding-bottom: 10px;
@@ -527,7 +557,7 @@ h2{
     color: rgba(255, 255, 255, 0.4);
     font-size: 12px;
     font-weight: 400;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     padding-right: 0px;
 }
 .svg12{
@@ -571,7 +601,7 @@ h2{
 
 }
 .leftteen{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-weight: 400;
     font-size: 14.4px;
     color: rgba(255, 255, 255, 0.4);
@@ -620,7 +650,7 @@ h2{
 }
 .box2 div{
     padding-top: 5px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-size: 13px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
@@ -677,7 +707,7 @@ h2{
     .thrdrowtxt{
     margin-left: 4px;
     margin-right: 4px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     font-size: 13px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.6);
