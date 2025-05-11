@@ -668,6 +668,7 @@ h2{
         background: linear-gradient(130deg, #4d2b7a, #134533, #111212 40%);
         margin: 0;
         overflow-x: hidden;
+        margin: 0;
     }
     .heading{
     padding-left: 20px;
@@ -697,22 +698,29 @@ h2{
         display: none;
     }
     .thirdrow{
-        padding-left: 10px;
+        padding-left:5px;
         overflow-x: auto;
         white-space: nowrap;
+        width: 378px;
     }
+
     .thirdrow::-webkit-scrollbar {
         display: none; 
     }
+    
     .thrdrowtxt{
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 1px;
+    margin-right: 1px;
     font-family: 'Inter';
-    font-size: 13px;
-    font-weight: 300;
+    font-size: 7.3px;
+    font-weight: 100;
     color: rgba(255, 255, 255, 0.6);
     cursor: pointer;
     transition: color 0.3s, border-bottom 0.3s;
+    margin-top: 10px;
+    }
+    .dash{
+        margin: 0px;
     }
     .frthrow{
         margin-left: 10px;
@@ -722,16 +730,26 @@ h2{
 
     }
     .glance{
-        font-size: 20px;
+        font-size: 18px;
     }
     .date{
         padding-top: 16px;
-        font-size: 11px;
+        font-size: 9px;
         padding-right: 10px;
     }
     .fifrow{
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .number1{
+        font-size:17px ;
+    }
+    .number2{
+        font-size: 17px;
+    }
+    .label{
+        padding-top: 9px;
+        font-size:12px ;
     }
     .sixrow{
         margin-left: 10px;
@@ -748,46 +766,57 @@ h2{
         width: 30px;
     }
     .svnrow{
-        margin-left: 10px; 
+        margin-left: 5px; 
     }
     .lblv{
         margin-right: 1px;
-        font-size: 9.4px;
-        font-weight: 100;
+        font-size: 9.9px;
+        font-weight: 200;
         white-space: nowrap;
 
     }
     .lblw{
         margin-right: 1px;
-        font-size: 9.4px;
-        font-weight: 100;
+        font-size: 9.9px;
+        font-weight: 200;
         white-space: nowrap;
 
 
     }
     .lblg{
         margin-right: 1px;
-        font-size: 9.4px;
-        font-weight: 100;
+        font-size: 9.9px;
+        font-weight: 200;
         white-space: nowrap;
         
     }
     .lblb{
         margin-right: 1px;
-        font-size: 9.4px;
-        font-weight: 100;
+        font-size: 9.9px;
+        font-weight: 200;
         white-space: nowrap;
 
     
     }
     .egtrow{
-        margin: 10px;
-        display: grid;
-        grid-template-columns: repeat(2, 140px);
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
     }
     .btn{
-        width: 100px;
-        margin-bottom: 10px;
+        width:46px ;
+        height:40px ;
+        margin-right: 5px;
+
+    }
+    .btn p{
+        font-size: 12px;
+        font-weight: 200;
+        margin-top: 6px;
+    }
+    .btn img{
+        width: 13px;
+        height: 13px;
     }
     .ninerow{
         margin-left: 10px;
@@ -798,41 +827,110 @@ h2{
         padding: 0px;
     }
     .lvnrow{
-        margin-left: 10px;
-        display: flex;
-        flex-wrap: wrap;
+        margin: 0px;
+        display: block;
     }
+
+    
     .lft{
-        width: 100%;
+        margin-left: 5px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5px;
+        padding-bottom: 12px;
+        
     }
     .rght{
-        display: grid;
-        grid-template-columns: repeat(2,180px);
+        display: flex;
+        justify-content: flex-start;
         
     }
     .ci{
-        margin-left:45px ;
-        width: 150px;
+        display: flex;
+        justify-content: flex-start;
+        margin-left:0px ;
+        width: 75px;
     }
     .cp1{
-        margin-left:13px;
+        margin-left:0px;
         white-space: nowrap;
+        font-size: 9px;
+        font-weight: 200;
+        padding: 0px;
+        padding-top: 14px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     .cp2{
-
-        padding-top: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+        
+    }
+    .ci img{
+        padding-top: 13px;
+        margin: 0px;
+        width: 15px;
+        height: 15px;
     }
     .sm{
+        margin-left:1px ;
+        width: 85px;
         margin-bottom: 10px;
     }
+    .sm p{
+        font-size: 10px;
+        font-weight: 100;
+
+    }
     .as{
-        width: 163px;
+        margin-left:0px ;
+        width: 100px;
+    }
+    .ap1{
+        margin-left:0px;
         white-space: nowrap;
+        font-size: 9px;
+        font-weight: 200;
+        padding: 0px;
+        padding-top: 14px;
+        padding-left: 5px;
+        padding-right: 8px;
+    }
+    .ap2{
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .as img{
+        padding-top: 13px;
+        margin: 0px;
+        width: 15px;
+        height: 15px;
     }
     .rs{
-        margin-left: 20px;
-        width: 178px;
+        margin-left:0px ;
+        width: 100px;
+    }
+    .rp1{
+        margin-left:0px;
         white-space: nowrap;
+        font-size: 9px;
+        font-weight: 200;
+        padding: 0px;
+        padding-top: 14px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .rp2{
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .rs img{
+        padding-top: 13px;
+        margin: 0px;
+        width: 15px;
+        height: 15px;
     }
     .twlrow{
         margin-left: 10px;

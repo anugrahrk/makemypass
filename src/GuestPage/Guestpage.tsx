@@ -116,7 +116,7 @@ const Guestpage = () => {
         <p className={styles.txt}>Add Guest</p>
         <img src={svg3} className={styles.icon}/>
       </div>
-    </div>
+      </div>
     <div className={styles.ninerow}>Guests List</div>
     <div className={styles.tenrow}>
       <img src={svg10} className={styles.searchicon} />
